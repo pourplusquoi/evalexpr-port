@@ -1,0 +1,12 @@
+[package]
+name = "evalexpr-port"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "evalexpr_port"
+crate-type = ["staticlib"]
+
+[dependencies]
+evalexpr = "6.6"
+paste = "1.0"
